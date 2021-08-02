@@ -1,14 +1,69 @@
 title: Thai Wara
+slogan: Bienvenue à une heure de détente
 phone: "+3307"
-address: somewhere
-maps: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621
+address: 4 rue Poulbot</br>75018 Paris
+maps: https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKwBOMltu5kcRAnSBXDOQVug&key=AIzaSyCW4hX9ba6y9sis28QPo-wFjrQY-Jf6F-U
 mail: nong.zen45@gmail.com
 twitter: twitter
-facebook: facebook
-instagram: instagram
+facebook: https://www.facebook.com/thai.wara.33
+instagram: https://www.instagram.com/thaiwara_paris
 google_plus: google-plus
 linkedin: linkedin
 path:
   home: /
-  services: /services.html
+  service: /services.html
   degree: /diplome.html
+services:
+  - name: Massage Thai Wara
+    text: |
+      C'est un massage signature qui utilise des techniques de massage thaïlandais avec des modèles de massage d'aromathérapie en se combinant avec l'art du massage Guerrier Thaïlandais (Thai Warrior).
+      C'est une combinaison d'expérience de travail et d'apprentissage depuis 2008.
+      Vous recevrez un massage avec le poids de main et la douceur à la perfection.
+    image: /assets/img/photos/hd_thai_wara_massage.jpg
+  - name: Massage du visage
+    text: |
+      C'est un massage relaxant sur le visage. Il aide à réduire les symptômes de tension clairement exprimés et la matité du visage en le rendant lumineux et radieux avec un sourire dans toute situation.
+    image: /assets/img/photos/hd_face_massage.jpg
+  - name: Massage des pieds
+    text: |
+      C'est un massage qui se concentre sur les jambes et les pieds, pour réduire la fatigue causée par l’usage excessif. Il aide à réduire le stress et à créer un effet positif sur la santé mentale. Il crée une relaxation profonde et vous aide à être prêt à avancer avec le bonheur.
+    image: /assets/img/photos/hd_foot_massage.jpg
+  - name: Massage Guerrier Thaïlandais
+    text: |
+      C'est un massage moderne et unique de Thaïlande.
+      C'est une combinaison de massage traditionnel et de Ruesi Datton. (Exercice de l’Ermite Thaïlandais). Il est également connu sous le nom de Massage Yoga. Il a été restauré par Maître Jack (M. Pathompon Aiyarattanarak). C'est un mélange de massage rythmique utilisant la pression, la flexion et l’étirement doux pour aider à soulager votre douleur, votre fatigue et vos tensions.
+    image: /assets/img/photos/hd_thai_warrior_massage.jpg
+  - name: Massage d'Aromathérapie
+    text: |
+      C'est un massage léger et apaisant qui utilise des huiles parfumées.
+      Il aide à nourrir la peau par pénétration avec le poids de main pour la relaxation.
+      Le parfum des huiles essentielles améliore la bonne humeur et le confort pour une sensation de détente et une vie meilleure pendant l’heure du massage.
+    image: /assets/img/photos/hd_aromatherapy_massage.jpg
+  - name: Massage Thaïlandais
+    text: |
+      C'est un massage qui utilise la pression, la flexion, la pression et l'étirement, tout en appliquant le poids de main convenables à vos besoins. Chaque pose aidera à soulager les courbatures et les douleurs sur tout le corps.
+    image: /assets/img/photos/hd_thai_massage.jpg
+degree_types:
+  - id: health
+    name: Health and Beauty Development School
+  - id: union
+    name: The Union of Thai Medicine Society
+  - id: surin
+    name: Surin Polytechnic
+  - id: warior
+    name: Thai Warior Massage
+degrees:
+  - 1
+  - 0
+  - 2
+  - 3
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
