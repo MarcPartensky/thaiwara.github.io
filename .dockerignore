@@ -1,3 +1,6 @@
 templates/
 Dockerfile
 Makefile
+Pipfile
+Pipfile.lock
+requirements.txt
