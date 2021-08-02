@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-		<title>Thai Wara</title>
+		<title>{{ title }}</title>
 		<meta content="" name="description">
 		<meta content="" name="keywords">
 
@@ -59,8 +59,14 @@
 			</div>
 		</header><!-- End Header -->
 
+		{% block hero %}
+		{% endblock hero %}
+
 		<main id="main">
-			{% block content %}{% endblock content %}
+			</br></br>
+			{% block about %}{% endblock about %}
+			{% block degrees %}{% endblock degrees %}
+			{% block contact %}{% endblock contact %}
 		</main><!-- End #main -->
 
 		<!-- ======= Footer ======= -->

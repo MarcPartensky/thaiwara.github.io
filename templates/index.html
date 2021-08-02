@@ -1,5 +1,14 @@
 {% extends "base.html" %}
-{% block content %}
+{% block hero %}
+		<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+			<div class="container text-center text-md-left" data-aos="fade-up">
+				<h1>Thai Wara</h1>
+				<h2>Bienvenue à une heure de détente !</h2>
+				<a href="#about" class="btn-get-started scrollto">En savoir plus</a>
+			</div>
+		</section><!-- End Hero -->
+{% endblock hero %}
+{% block about %}
 			<!-- ======= About Section ======= -->
 			<section id="about" class="about">
 				<div class="container">
@@ -36,6 +45,7 @@
 
 				</div>
 			</section><!-- End About Section -->
+{% endblock about %}
 
 			<!-- <!-1- ======= Steps Section ======= -1-> -->
 			<!-- <section id="steps" class="steps section-bg"> -->
@@ -580,6 +590,7 @@
 				</div>
 			</section><!-- End F.A.Q Section -->
 
+{% block contact %}
 			<!-- ======= Contact Section ======= -->
 			<section id="contact" class="contact">
 				<div class="container">
@@ -596,13 +607,13 @@
 								<div class="address">
 									<i class="bi bi-geo-alt"></i>
 									<h4>Adresse :</h4>
-									<p>A108 Adam Street, New York, NY 535022</p>
+									<p>{{ address }}</p>
 								</div>
 
 								<div class="email mt-4">
 									<i class="bi bi-envelope"></i>
 									<h4>Email :</h4>
-									<p>nong.zen45@gmail.com</p>
+									<p>{{ mail }}</p>
 								</div>
 
 								<div class="phone mt-4">
@@ -643,7 +654,7 @@
 									<div class="error-message"></div>
 									<div class="sent-message">Votre message a été envoyé!</div>
 								</div>
-								<div class="text-center"><button type="submit">Envoyer message</button></div>
+								<div class="text-center"><button type="submit">Envoyer</button></div>
 							</form>
 						</div>
 
@@ -651,4 +662,4 @@
 
 				</div>
 			</section><!-- End Contact Section -->
-{% endblock content %}
+{% endblock contact %}
