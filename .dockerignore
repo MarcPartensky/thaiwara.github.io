@@ -4,3 +4,4 @@ Makefile
 Pipfile
 Pipfile.lock
 requirements.txt
+etc/
