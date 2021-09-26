@@ -1,5 +1,5 @@
 title: Thaiwara
-slogan: Bienvenue à une heure de détente
+slogan: Welcome to an hour of relaxation!
 phone: "+33782392896"
 address: 4 rue Poulbot</br>75018 Paris
 maps: https://www.google.com/maps/embed/v1/place"?"q=place_id:ChIJKwBOMltu5kcRAnSBXDOQVug&key=AIzaSyCW4hX9ba6y9sis28QPo-wFjrQY-Jf6F-U
@@ -14,11 +14,11 @@ linkedin: linkedin
 path:
   home: /
   service: /services.html
-  degree: /diplome.html
+  degree: /degree.html
 services:
-  - name: Massage Thaiwara
+  - name: Thaiwara Massage
     text: |
-      Massage signature alliant les techniques du massage thaïlandais et du massage d'aromathérapie, avec l'art du massage Guerrier Thaïlandais (Thai Warrior). C'est une combinaison d'expérience, de travail et d'apprentissage depuis 2008. Vous recevrez un massage alliant à la perfection la pression de la main et la douceur.
+      It is a signature massage that uses Thai massage techniques together with aromatherapy massage patterns and combining with the art of Thai Warrior Massage. It is a combination of work experience and learning since 2008. You will receive a massage with the hand weight and gentleness to perfection.
     image: /assets/img/photos/hd_thai_wara_massage.jpg
     id: thaiwara
     prices:
@@ -27,9 +27,9 @@ services:
       - price: 250
         hour: "1h30"
 
-  - name: Aromathérapie
+  - name: Aromatherapy Massage
     text: |
-      Massage léger et apaisant utilisant des huiles parfumées. Il procure relaxation et nourrit la peau par pénétration des huiles avec le poids de la main. Le parfum des huiles essentielles améliore la bonne humeur et le confort pour une sensation de détente et bien être.
+      It is a light soothing massage that uses scented oils. It helps nourishing the skin by penetration with hand weight for relaxation. The scent of essential oils enhances good mood and comfort for a relaxing feelings and better life in the following hour.
     image: /assets/img/photos/hd_aromatherapy_massage.jpg
     id: aromatherapy
     prices:
@@ -37,9 +37,9 @@ services:
         hour: "h"
       - price: 250
         hour: "1h30"
-  - name: Massage Thaïlandais Traditionnel
+  - name: Traditional Thai Massage
     text: |
-      Massage utilisant la pression, la flexion et l'étirement, tout en appliquant le poids de main convenant à vos besoins. Chaque pose aidera à soulager les courbatures et les douleurs sur tout le corps.
+      It is a massage that uses pressure, bending, squeezing and stretching, while applying the suitable hand weight to your needs. Each pose will help relieve aches and pains all over your body.
     image: /assets/img/photos/hd_thai_massage.jpg
     id: thai
     prices:
@@ -47,25 +47,25 @@ services:
         hour: "h"
       - price: 250
         hour: "1h30"
-  - name: Massage Guerrier Thaïlandais
+  - name: Thai Warrior Massage
     text: |
-      Massage moderne et unique de Thaïlande. C'est une combinaison de massage traditionnel et de Ruesi Datton (Exercice de l’Ermite Thaïlandais). Également connu sous le nom de Massage Yoga, il a été restauré par Maître Jack (M. Pathompon Aiyarattanarak). C'est un mélange de massage rythmique utilisant la pression, la flexion et l’étirement doux pour aider à soulager votre douleur, votre fatigue et vos tensions.
+      It is a modern and unique massage from Thailand. It is a combination of traditional massage and Ruesi Datton. (Thai Hermit Exercise).  Il is also known as Yoga Massage.  It was rejuvenated by Master Jack (Mr. Pathompon Aiyarattanarak). It is a blend of rhythmic massage using gentle compression, bending, stretching to help relieve your pain, fatigue and tension.
     image: /assets/img/photos/hd_thai_warrior_massage.jpg
     id: warrior
     prices:
       - price: 180
         hour: "h"
-  - name: Réflexologie faciale
+  - name: Facial massage
     text: |
-      Massage relaxant sur le visage. Il aide à réduire les symptômes de tension visibles du visage, qui retrouve éclat et luminosité pour un sourire radieux dans toute situation.
+      It is a relaxing massage on the face. It helps reducing the evident symptoms of tension and dullness on the face and makes the face look bright and radiant with a smile for every situation.
     image: /assets/img/photos/hd_face_massage.jpg
     id: face
     prices:
       - price: 150
         hour: "h"
-  - name: Réflexologie plantaire
+  - name: Foot massage
     text: |
-      Massage concentré sur les jambes et les pieds, pour leur redonner de l’énergie, réduire le stress et créer un effet de bien être. Il procure une relaxation profonde, vous aidant à être prêt à avancer vers le bonheur.
+      It is a massage that focuses on the legs and feet, to reduce fatigue caused by an overuse.  It helps reducing stress and creating positive effect on mental health. It creates deep relaxation and helps you to be ready to take a happy step forward.
     image: /assets/img/photos/hd_foot_massage.jpg
     id: foot
     prices:
