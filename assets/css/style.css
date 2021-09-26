@@ -483,7 +483,7 @@ body {
   margin: 0 0 10px 0;
   font-size: 2.5vw;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 25px;
   color: #fff;
 }
 
@@ -528,12 +528,12 @@ body {
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 5vw;
-    line-height: 36px;
+    line-height: 20px;
   }
   #hero h2 {
     font-size: 3vw;
-    line-height: 24px;
-    margin-bottom: 30px;
+    line-height: 8px;
+    margin-bottom: 10px;
   }
 }
 
