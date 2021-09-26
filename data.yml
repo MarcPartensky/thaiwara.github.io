@@ -12,9 +12,9 @@ google_plus: google-plus
 keywords: massage, thai, wara, thaiwara
 linkedin: linkedin
 path:
-  home: /
-  service: /services.html
-  degree: /degree.html
+  home: /en/
+  service: /en/services.html
+  degree: /en/degree.html
 services:
   - name: Thaiwara Massage
     text: |
