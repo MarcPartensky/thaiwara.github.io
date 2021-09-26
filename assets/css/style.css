@@ -441,7 +441,7 @@ body {
   height: calc(100vh - 70px);
   /* background: url("../img/photos/hd_front_page.jpg") center center; */
   /* background: url("../img/photos/zany4.jpg") center center; */
-  background: url("../img/photos/zany6.png")  center center;
+  background: url("../img/photos/zany6.jpg")  center center;
 	background-color: black;
   background-size: contain;
 	background-repeat: no-repeat;
@@ -468,6 +468,7 @@ body {
 #hero:before {
   content: "";
   position: absolute;
+	background: rgba(0, 0, 0, 0.2);
   bottom: 0;
   top: 0;
   left: 0;
