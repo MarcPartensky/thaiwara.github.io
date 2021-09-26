@@ -6,33 +6,20 @@
 			<section id="portfolio" class="portfolio section-bg">
 				<div class="container">
 
-					<div class="section-title" data-aos="fade-up">
-						<h2>Diplômes</h2>
-						<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-					</div>
-
-					<div class="row" data-aos="fade-up">
-						<div class="col-lg-12 d-flex justify-content-center">
-							<ul id="portfolio-flters">
-								<li data-filter="*" class="filter-active">Tout</li>
-								{% for degree_type in degree_types %}
-								<li data-filter=".filter-{{ degree_type.id }}">{{ degree_type.id }}</li>
-								{% endfor %}
-							</ul>
-						</div>
-					</div>
+					<h3 data-aos="fade-up">Diplômes
+					<hr>
+					</h3>
 
 					<div class="row portfolio-container" data-aos="fade-up">
 
-						{% for degree in degrees %}
-						<div class="col-lg-4 col-md-6 portfolio-item filter-{{ degree_types[degree].id }}">
+						{% for i in range(14) %}
+						<div class="col-lg-4 col-md-6 portfolio-item filter-{{ degrees_type[degrees[i]].id }}">
 							<div class="portfolio-wrap">
-								<img src="assets/img/photos/degree{{ degree + 1}}.jpg" class="img-fluid" alt="">
+								<img src="assets/img/photos/degree{{ i+1 }}.jpg" class="img-fluid" alt="">
 								<div class="portfolio-info">
-									<h4>{{ degree_types[degree].name }} {{ loop.index + 1 }}</h4>
-									<p>{{ degree_types[degree].name }}</p>
+									<h4>{{ degrees_type[degrees[i]].name }}</h4>
 									<div class="portfolio-links">
-										<a href="assets/img/photos/degree{{ degree + 1 }}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{ degree_types[degree].name }} {{ loop.index + 1 }}"><i class="bx bx-plus"></i></a>
+										<a href="assets/img/photos/degree{{ i+1 }}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{ degrees_type[degrees[i]].name }} {{ i+1 }}"><i class="bx bx-plus"></i></a>
 										<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
 									</div>
 								</div>
