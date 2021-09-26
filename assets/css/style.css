@@ -481,7 +481,7 @@ body {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -490,17 +490,17 @@ body {
 #hero h2 {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 35px;
-  font-size: 15px;
+  font-size: 1.5vw;
 }
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 0.4rem;
+  font-weight: 100;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 15px;
+  padding: 4px 8px;
   border-radius: 4px;
   transition: 0.5s;
   border: 2px solid #fff;
@@ -527,11 +527,11 @@ body {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 5vw;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 3vw;
     line-height: 24px;
     margin-bottom: 30px;
   }
