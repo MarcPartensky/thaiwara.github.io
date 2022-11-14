@@ -1,3 +1,4 @@
+all: run french english
 run:
 	jinja2 templates/index.html data.yml -o index.html
 	jinja2 templates/services.html data.yml -o services.html
