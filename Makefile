@@ -11,4 +11,4 @@ french:
 english:
 	jinja2 templates/index.html data.yml -o en/index.html
 	jinja2 templates/services.html data.yml -o en/services.html
-	jinja2 templates/degree.html data.yml -o en/degree.html
+	jinja2 templates/diplome.html data.yml -o en/degree.html
