@@ -46,19 +46,19 @@ Quelque soit la fatigue ou le stress que vous subissez pendant la journée, je 
 					<div class="row">
 						<div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
 							<ul class="nav nav-tabs flex-column">
-								{% for i in range(4) %}<li class="nav-item">
+								{% for i, service in enumerate(services.values()) %}<li class="nav-item">
 									<a class="nav-link {% if i==0 %}active show{% endif %}" data-bs-toggle="tab" href="#tab-{{ i }}">
-										<h4>{{ services[i].name }}</h4>
-										<p>{{ services[i].text }}</p>
+										<h4>{{ service.name }}</h4>
+										<p>{{ service.text }}</p>
 									</a>
 								</li>{% endfor %}
 							</ul>
 						</div>
 						<div class="col-lg-7 ml-auto" data-aos="fade-left">
 							<div class="tab-content">
-								{% for i in range(4) %}<div class="tab-pane {% if i==0 %}active show{% endif %}" id="tab-{{ i }}">
+								{% for i, service in enumerate(services.values()) %}<div class="tab-pane {% if i==0 %}active show{% endif %}" id="tab-{{ i }}">
 									<figure>
-										<img src="{{ services[i].image }}" alt="" class="img-fluid">
+										<img src="{{ services.image }}" alt="" class="img-fluid">
 									</figure>
 								</div>{% endfor %}
 							</div>
