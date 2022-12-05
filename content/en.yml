@@ -1,0 +1,97 @@
+title: Thaiwara
+slogan: Welcome to a relaxing hour
+phone: "+33782392896"
+address: 4 rue Poulbot</br>75018 Paris
+maps: https://www.google.com/maps/embed/v1/place"?"q=place_id:ChIJKwBOMltu5kcRAnSBXDOQVug&key=AIzaSyCW4hX9ba6y9sis28QPo-wFjrQY-Jf6F-U
+mail: thaiwara2224@gmail.com
+icon: /assets/img/photos/icon-nobg.png
+twitter: twitter
+facebook: https://www.facebook.com/thai.wara.33
+instagram: https://www.instagram.com/thaiwara_paris
+google_plus: google-plus
+keywords: massage, thai, wara, thaiwara
+linkedin: linkedin
+path:
+  home: /
+  service: /services.html
+  degree: /diplome.html
+services:
+  - name: Thaiwara Massage
+    text: |
+      Signature massage combining the techniques of Thai massage and aromatherapy massage, with the art of Thai Warrior massage (Thai Warrior). It has been a combination of experience, work and learning since 2008. You will receive a massage perfectly combining hand pressure and softness.
+    image: /assets/img/photos/hd_thai_wara_massage.jpg
+    id: thaiwara
+    prices:
+      - price: 180
+        hour: "1h"
+      - price: 250
+        hour: "1h30"
+
+  - name: Aromatherapy
+    text: |
+      Light and soothing massage using scented oils. It provides relaxation and nourishes the skin by penetrating oils with the weight of the hand. The scent of essential oils improves good mood and comfort for a feeling of relaxation and well-being.
+    image: /assets/img/photos/hd_aromatherapy_massage.jpg
+    id: aromatherapy
+    prices:
+      - price: 180
+        hour: "1h"
+      - price: 250
+        hour: "1h30"
+  - name: Traditional Thai Massage
+    text: |
+      Massage using pressure, flexion and stretching, while applying hand weight suitable for your needs. Each pose will help relieve soreness and pain all over the body.
+    image: /assets/img/photos/hd_thai_massage.jpg
+    id: thai
+    prices:
+      - price: 180
+        hour: "1h"
+      - price: 250
+        hour: "1h30"
+  - name: Thai Warrior Massage
+    text: |
+      Modern and unique massage from Thailand. It is a combination of traditional massage and Ruesi Datton (Exercise of the Thai Hermit). Also known as Massage Yoga, it was restored by Master Jack (M. Pathompon Aiyarattanarak). It is a combination of rhythmic massage using gentle pressure, flexion and stretching to help relieve your pain, fatigue and tension.
+    image: /assets/img/photos/hd_thai_warrior_massage.jpg
+    id: warrior
+    prices:
+      - price: 180
+        hour: "1h"
+  - name: Facial Reflexology
+    text: |
+      Relaxing massage on the face. It helps reduce the visible tension symptoms of the face, which regains radiance and brightness for a radiant smile in any situation.
+    image: /assets/img/photos/hd_face_massage.jpg
+    id: face
+    prices:
+      - price: 150
+        hour: "1h"
+  - name: Foot Reflexology
+    text: |
+      Concentrated massage on the legs and feet, to give them energy, reduce stress and create a well-being effect. It provides deep relaxation, helping you to be ready to move towards happiness.
+    image: /assets/img/photos/hd_foot_massage.jpg
+    id: foot
+    prices:
+      - price: 170
+        hour: "1h"
+degrees_type:
+  - id: health
+    name: Health and Beauty Development School
+  - id: union
+    name: The Union of Thai Medicine Society
+  - id: surin
+    name: Surin Polytechnic
+  - id: warior
+    name: Thai Warior Massage
+degrees:
+  - 1
+  - 0
+  - 2
+  - 3
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
