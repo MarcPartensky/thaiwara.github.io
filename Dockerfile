@@ -4,7 +4,7 @@ RUN apt install -y make
 RUN pip install pipenv
 
 COPY Pipfile Pipfile.lock ./
-RUN pipenv install
+RUN pipenv install --deploy
 
 COPY templates content ./
 RUN make all
