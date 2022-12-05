@@ -24,3 +24,7 @@ test:
 	./src/test.sh
 dev:
 	python -m http.server
+build:
+	docker-compose build
+push:
+	docker-compose push
