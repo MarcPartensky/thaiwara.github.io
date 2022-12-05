@@ -18,3 +18,7 @@ merge:
 	./src/merge.py content/base.yml content/en.yml > $(TMP)/thaiwara_en.yml
 init:
 	mkdir -p en fr
+update:
+	pipenv update
+test:
+	python -m http.server
