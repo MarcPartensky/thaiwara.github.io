@@ -17,10 +17,10 @@ path:
     slug: /en
   service:
     name: Services
-    slug: /en/services
+    slug: /en/services.html
   degree:
     name: Degrees
-    slug: /en/degree
+    slug: /en/degree.html
 services:
   thaiwara:
     name: Thaiwara Massage
