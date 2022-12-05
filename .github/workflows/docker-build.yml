@@ -37,6 +37,6 @@ jobs:
         push: true
         tags: |
           marcpartensky/thaiwara:latest
-          marcpartensky/thaiwara:${{ steps.date.output.date }}
+          marcpartensky/thaiwara:${{ github.event.repository.updated_at}}
         cache-from: type=gha
         cache-to: type=gha,mode=max
