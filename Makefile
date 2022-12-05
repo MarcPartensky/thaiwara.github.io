@@ -26,5 +26,5 @@ dev:
 	python -m http.server
 build:
 	docker-compose build
-push:
+push: build
 	docker-compose push
