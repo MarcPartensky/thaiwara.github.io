@@ -6,10 +6,21 @@ on:
       - "master"
 
 jobs:
+  # test:
+  #   name: Update dockerhub image
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v3
+  #   - 
+
   push:
+    need: test
     name: Update dockerhub image
     runs-on: ubuntu-latest
     steps:
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
     - uses: actions/checkout@v3
     - uses: docker/setup-qemu-action@v2
     - uses: docker/setup-buildx-action@v2
@@ -25,6 +36,6 @@ jobs:
         push: true
         tags:
           - marcpartensky/thaiwara:latest
-          - marcpartensky/thaiwara:latest
+          - marcpartensky/thaiwara:${{ steps.date.output.date }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
