@@ -1,6 +1,6 @@
 FROM python as builder
 
-RUN apt install -y make
+RUN apt install -y make curl
 RUN pip install pipenv
 
 COPY Pipfile Pipfile.lock ./
