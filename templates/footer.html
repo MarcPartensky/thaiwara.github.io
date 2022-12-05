@@ -8,8 +8,8 @@
 							<div class="footer-info">
 								<img src="/assets/img/photos/icon-nobg.png" alt="" style="width: 50%; height: 50%"class="img-fluid"><br>
 								<!-- <h3>{{ title }}</h3> -->
-								<strong>Téléphone : </strong><a href="tel:{{ phone }}">{{ phone }}</a><br>
-								<strong>Email : </strong><a href="mailto:{{mail}}">{{ mail }}</a><br>
+                                <strong>{{ phone_text }} : </strong><a href="tel:{{ phone }}">{{ phone }}</a><br>
+                                <strong>{{ mail_text }} : </strong><a href="mailto:{{mail}}">{{ mail }}</a><br>
 								</p>
 								<div class="social-links mt-3">
 									<a href="{{ twitter }}" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -48,7 +48,7 @@
                     &copy; {{ rights.author }} <strong><span>Marc Partensky</span></strong>. {{ rights.reserved }}
 				</div>
 				<div class="credits">
-                    {{ rights.made_by }} <a href="https://marcpartensky.com">Marc Partensky</a>
+                    {{ rights.made_by }} <a href="{{ author.website }}">{{ author.name }}</a>
 				</div>
 			</div>
 		</footer><!-- End Footer -->
