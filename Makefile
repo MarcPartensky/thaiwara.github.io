@@ -20,6 +20,7 @@ init:
 	mkdir -p en fr
 update:
 	pipenv update
+	pipenv lock -r > requirements.txt
 test:
 	./src/test.sh
 dev:
