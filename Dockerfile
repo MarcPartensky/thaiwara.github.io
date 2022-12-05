@@ -6,7 +6,7 @@ RUN pip install pipenv
 COPY Pipfile Pipfile.lock ./
 RUN pipenv install --deploy
 
-COPY templates content ./
+COPY templates content makefile ./
 RUN make all
 
 FROM sebp/lighttpd
