@@ -4,9 +4,12 @@ RUN apt install -y make
 RUN pip install pipenv
 
 COPY Pipfile Pipfile.lock ./
-RUN pipenv install --deploy
+RUN pipenv install
 
-COPY templates content Makefile ./
+COPY templates templates
+COPY content content
+COPY src src
+COPY Makefile .
 RUN make all
 
 FROM sebp/lighttpd
