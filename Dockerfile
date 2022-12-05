@@ -4,7 +4,7 @@ WORKDIR /root
 RUN apt install -y make
 RUN pip install pipenv
 COPY Pipfile Pipfile.lock /root/
-RUN pipenv update
+RUN pipenv install
 RUN make all
 
 FROM sebp/lighttpd
