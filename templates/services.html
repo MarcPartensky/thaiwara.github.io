@@ -10,15 +10,15 @@
 					<br>
 
 					<div class="row">
-						{% for i in range(6) %}
-						<div id="{{ services[i].id }}" data-aos="fade-left" class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-							<h4 style="left: 0">{{ services[i].name }}</h4>
-							<img src="{{ services[i].image }}" class="img-fluid" alt="">
+						{% for id, service in services.items() %}
+						<div id="{{ id }}" data-aos="fade-left" class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+							<h4 style="left: 0">{{ service.name }}</h4>
+							<img src="{{ service.image }}" class="img-fluid" alt="">
 						</div>
 						<div class="col-xl-6 col-lg-7" data-aos="fade-left">
 							<br><br>
-							<p style="font-size: 1.1rem; text-align: justify">{{ services[i].text }}<p>
-							{% for price in services[i].prices %}
+							<p style="font-size: 1.1rem; text-align: justify">{{ service.text }}<p>
+							{% for price in service.prices %}
 							<p>
 							{{ price.price }} € / {{ price.hour }}
 							</p>
