@@ -1,5 +1,11 @@
 slogan: Bienvenue à une heure de détente
-well_being: Préservez votre bien-être!
+well_being: Préservez votre bien-être \!
+whoami:
+  title: Qui suis-je ?
+  text: |
+    Je m'appelle Zany Zen. Thérapeute, je vous aiderai à réduire le stress et retrouver l’harmonie pendant une heure de merveilleuse détente.
+    Mes compétences de massage, mélange d'art, de style, de douceur, de tonicité et de précision, vous procureront une relaxation complète de votre corps et votre esprit. Quelque soit la fatigue ou le stress que vous subissez pendant la journée, je serai votre thérapeute, heureuse de vous servir et prendre soin de vous pour une heure de soulagement et de bonheur.
+    Vous pouvez choisir la date, l'heure et le lieu qui vous conviennent.
 path:
   home:
     name: Accueil

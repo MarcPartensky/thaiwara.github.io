@@ -1,5 +1,11 @@
 slogan: Welcome to a relaxing hour
 well_being: Preserve your well being!
+whoami:
+  title: Who am I?
+  text: |
+    My name is Zany Zen. Therapist, I will help you reduce stress and find harmony during an hour of wonderful relaxation.
+    My massage skills, blend of art, style, softness, tone and precision, will give you complete relaxation of your body and mind. Whatever fatigue or stress you experience during the day, I will be your therapist, happy to serve you and take care of you for an hour of relief and happiness.
+    You can choose the date, time and place that suits you.
 path:
   home:
     name: Home
