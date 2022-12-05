@@ -20,7 +20,7 @@
 							<p style="font-size: 1.1rem; text-align: justify">{{ service.text }}<p>
 							{% for price in service.prices %}
 							<p>
-                            <button type="button" class="btn btn-secondary">
+                            <button type="button" class="btn btn-secondary" disabled>
                                 {{ price.price }} € / {{ price.hour }}
                             </button>
 							</p>
