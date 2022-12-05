@@ -21,4 +21,6 @@ init:
 update:
 	pipenv update
 test:
+	./src/test.sh
+dev:
 	python -m http.server
