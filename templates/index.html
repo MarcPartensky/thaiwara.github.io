@@ -6,7 +6,7 @@
 			<div id="hero1" class="container text-center text-md-left" data-aos="fade-up">
 				<h1>{{ title }}</h1>
 				<h2>{{ slogan }}</h2>
-				<a href="#about" class="btn-get-started scrollto">En savoir plus</a>
+                <a href="#about" class="btn-get-started scrollto">{{ about }}</a>
 			</div>
 			<!-- <img id="hero2" src="/assets/img/photos/zany4.jpg"> -->
 		</section><!-- End Hero -->
@@ -408,7 +408,7 @@
 							<div class="info">
 								<div class="phone mt-4">
 									<i class="bi bi-phone"></i>
-									<h4>Téléphone :</h4>
+                                    <h4>{{ phone_text}} :</h4>
 									<p><a href="tel:{{ phone }}">{{ phone }}</a></p>
 								</div>
 
