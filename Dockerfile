@@ -1,8 +1,9 @@
 FROM python as builder
 
+WORKDIR /root
 RUN apt install -y make
 RUN pip install pipenv
-COPY Pipfile Pipfile.lock ./
+COPY Pipfile Pipfile.lock /root/
 RUN pipenv update
 RUN make all
 
