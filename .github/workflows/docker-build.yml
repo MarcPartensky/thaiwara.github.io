@@ -14,7 +14,8 @@ jobs:
   #   - 
 
   push:
-    need: test
+    # needs:
+    #   - test
     name: Update dockerhub image
     runs-on: ubuntu-latest
     steps:
