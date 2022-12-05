@@ -1,15 +1,20 @@
-all: run french english
-run:
-	jinja2 templates/index.html content/fr.yml -o index.html
-	jinja2 templates/services.html content/fr.yml -o services.html
-	jinja2 templates/diplome.html content/fr.yml -o diplome.html
+TMP:=$(XDG_RUNTIME_DIR)
 
-french:
-	jinja2 templates/index.html content/fr.yml -o fr/index.html
-	jinja2 templates/services.html content/fr.yml -o fr/services.html
-	jinja2 templates/diplome.html content/fr.yml -o fr/diplome.html
-
-english:
-	jinja2 templates/index.html content/en.yml -o en/index.html
-	jinja2 templates/services.html content/en.yml -o en/services.html
-	jinja2 templates/diplome.html content/en.yml -o en/degree.html
+all: french english main
+main: merge
+	jinja2 templates/index.html $(TMP)/thaiwara_fr.yml -o index.html
+	jinja2 templates/services.html $(TMP)/thaiwara_fr.yml -o services.html
+	jinja2 templates/diplome.html $(TMP)/thaiwara_fr.yml -o diplome.html
+french: merge init
+	jinja2 templates/index.html $(TMP)/thaiwara_fr.yml -o fr/index.html
+	jinja2 templates/services.html $(TMP)/thaiwara_fr.yml -o fr/services.html
+	jinja2 templates/diplome.html $(TMP)/thaiwara_fr.yml -o fr/diplome.html
+english: merge init
+	jinja2 templates/index.html $(TMP)/thaiwara_en.yml -o en/index.html
+	jinja2 templates/services.html $(TMP)/thaiwara_en.yml -o en/services.html
+	jinja2 templates/diplome.html $(TMP)/thaiwara_en.yml -o en/degree.html
+merge:
+	./src/merge.py content/base.yml content/fr.yml > $(TMP)/thaiwara_fr.yml
+	./src/merge.py content/base.yml content/en.yml > $(TMP)/thaiwara_en.yml
+init:
+	mkdir -p en fr
