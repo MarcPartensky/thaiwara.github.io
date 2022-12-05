@@ -21,6 +21,7 @@ COPY src/test.sh /root/test.sh
 COPY assets /var/www/localhost/htdocs/assets
 COPY etc/lighttpd  /etc/lighttpd
 
-HEALTHCHECK [ "/root/test.sh" ]
+ENV PROTO=http ADDR=localhost PORT=80
+HEALTHCHECK CMD /root/test.sh
 
 EXPOSE 80
