@@ -1,10 +1,12 @@
 FROM python as builder
 
-WORKDIR /root
 RUN apt install -y make
 RUN pip install pipenv
-COPY Pipfile Pipfile.lock /root/
+
+COPY Pipfile Pipfile.lock ./
 RUN pipenv install
+
+COPY templates content ./
 RUN make all
 
 FROM sebp/lighttpd
