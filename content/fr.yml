@@ -1,9 +1,15 @@
 slogan: Bienvenue à une heure de détente
 well_being: Préservez votre bien-être!
 path:
-  home: /
-  service: /services.html
-  degree: /diplome.html
+  home:
+    name: Accueil
+    slug: /
+  service:
+    name: Services
+    slug: /services.html
+  degree:
+    name: Diplôme
+    slug: /diplome.html
 services:
   thaiwara:
     name: Massage Thaiwara

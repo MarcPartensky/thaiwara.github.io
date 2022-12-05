@@ -1,9 +1,15 @@
 slogan: Welcome to a relaxing hour
 well_being: Preserve your well being!
 path:
-  home: /en
-  service: /en/services.html
-  degree: /en/degree.html
+  home:
+    name: Home
+    slug: /en
+  service:
+    name: Services
+    slug: /en/services.html
+  degree:
+    name: Degree
+    slug: /en/diplome.html
 services:
   thaiwara:
     name: Thaiwara Massage
