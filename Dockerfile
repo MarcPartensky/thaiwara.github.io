@@ -1,6 +1,6 @@
 FROM python as builder
 
-RUN apt install -y make curl
+RUN apt install -y make
 RUN pip install pipenv
 
 COPY Pipfile Pipfile.lock ./
@@ -13,6 +13,8 @@ COPY Makefile .
 RUN pipenv run make all
 
 FROM sebp/lighttpd
+
+RUN apk add curl
 
 COPY --from=builder index.html services.html diplome.html /var/www/localhost/htdocs/
 COPY --from=builder en /var/www/localhost/htdocs/en
