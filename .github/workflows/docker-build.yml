@@ -27,16 +27,17 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-    - name: get current date
-      id: date
-      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-    - name: build and push
+      - name: Get current date
+        id: date
+        run: |
+          echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
+    - name: Build and push
       uses: docker/build-push-action@v3
       with:
         context: prep
         push: true
         tags: |
           marcpartensky/thaiwara:latest
-          marcpartensky/thaiwara:${{ github.event.repository.updated_at}}
+          marcpartensky/thaiwara:${{ env.date }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
