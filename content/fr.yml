@@ -8,7 +8,7 @@ path:
     name: Services
     slug: /services.html
   degree:
-    name: Diplôme
+    name: Diplômes
     slug: /diplome.html
 services:
   thaiwara:
