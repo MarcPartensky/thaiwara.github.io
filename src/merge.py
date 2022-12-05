@@ -50,7 +50,6 @@ for file in files:
     with open(file, "r") as fp:
         dicts.append(yaml.safe_load(fp))
 
-print(dicts)
 data = {}
 functools.reduce(merge, [data] + dicts)
 
