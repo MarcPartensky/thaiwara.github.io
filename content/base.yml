@@ -1,0 +1,73 @@
+title: Thaiwara
+phone: "+33782392896"
+address: 4 rue Poulbot</br>75018 Paris
+maps: https://www.google.com/maps/embed/v1/place"?"q=place_id:ChIJKwBOMltu5kcRAnSBXDOQVug&key=AIzaSyCW4hX9ba6y9sis28QPo-wFjrQY-Jf6F-U
+mail: thaiwara2224@gmail.com
+icon: /assets/img/photos/icon-nobg.png
+twitter: twitter
+facebook: https://www.facebook.com/thai.wara.33
+instagram: https://www.instagram.com/thaiwara_paris
+google_plus: google-plus
+keywords: massage, thai, wara, thaiwara
+linkedin: linkedin
+services:
+  - image: /assets/img/photos/hd_thai_wara_massage.jpg
+    id: thaiwara
+    prices:
+      - price: 180
+        hour: "1h"
+      - price: 250
+        hour: "1h30"
+  - image: /assets/img/photos/hd_aromatherapy_massage.jpg
+    id: aromatherapy
+    prices:
+      - price: 180
+        hour: "1h"
+      - price: 250
+        hour: "1h30"
+  - image: /assets/img/photos/hd_thai_massage.jpg
+    id: thai
+    prices:
+      - price: 180
+        hour: "1h"
+      - price: 250
+        hour: "1h30"
+  - image: /assets/img/photos/hd_thai_warrior_massage.jpg
+    id: warrior
+    prices:
+      - price: 180
+        hour: "1h"
+  - image: /assets/img/photos/hd_face_massage.jpg
+    id: face
+    prices:
+      - price: 150
+        hour: "1h"
+  - image: /assets/img/photos/hd_foot_massage.jpg
+    id: foot
+    prices:
+      - price: 170
+        hour: "1h"
+degrees_type:
+  - id: health
+    name: Health and Beauty Development School
+  - id: union
+    name: The Union of Thai Medicine Society
+  - id: surin
+    name: Surin Polytechnic
+  - id: warior
+    name: Thai Warior Massage
+degrees:
+  - 1
+  - 0
+  - 2
+  - 3
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
