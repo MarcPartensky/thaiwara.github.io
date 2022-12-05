@@ -21,10 +21,10 @@ path:
     slug: /
   service:
     name: Services
-    slug: /services
+    slug: /services.html
   degree:
     name: Diplômes
-    slug: /diplome
+    slug: /diplome.html
 services:
   thaiwara:
     name: Massage Thaiwara
