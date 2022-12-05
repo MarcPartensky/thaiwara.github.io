@@ -28,7 +28,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: name/app
+        images: marcpartensky/thaiwara
         tags: |
           type=raw,value={{date 'YYYY-MM-DD'}}
     - name: Login to DockerHub
