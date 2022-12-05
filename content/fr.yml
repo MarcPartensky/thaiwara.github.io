@@ -42,3 +42,7 @@ services:
     name: Réflexologie plantaire
     text: |
       Massage concentré sur les jambes et les pieds, pour leur redonner de l’énergie, réduire le stress et créer un effet de bien être. Il procure une relaxation profonde, vous aidant à être prêt à avancer vers le bonheur.
+rights:
+  author: Droits d'auteurs
+  reserved: Tous droits réservés
+  made_by: Développé par

@@ -42,3 +42,7 @@ services:
     name: Foot Reflexology
     text: |
       Concentrated massage on the legs and feet, to give them energy, reduce stress and create a well-being effect. It provides deep relaxation, helping you to be ready to move towards happiness.
+rights:
+  author: Copyright
+  reserved: All rights reserved
+  made_by: Designed by
