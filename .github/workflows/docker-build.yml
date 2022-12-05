@@ -35,8 +35,6 @@ jobs:
       with:
         context: prep
         push: true
-        tags:
-          - marcpartensky/thaiwara:latest
-          - marcpartensky/thaiwara:${{ steps.date.output.date }}
+        tags: marcpartensky/thaiwara:latest, marcpartensky/thaiwara:${{ steps.date.output.date }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
