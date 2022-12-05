@@ -8,8 +8,8 @@ services_text: Our services
 whoami:
   title: Who am I?
   text: |
-    My name is Zany Zen. Therapist, I will help you reduce stress and find harmony during an hour of wonderful relaxation.
-    My massage skills, blend of art, style, softness, tone and precision, will give you complete relaxation of your body and mind. Whatever fatigue or stress you experience during the day, I will be your therapist, happy to serve you and take care of you for an hour of relief and happiness.
+    My name is Zany Zen. Therapist, I will help you reduce stress and find harmony during an hour of wonderful relaxation.<br><br>
+    My massage skills, blend of art, style, softness, tone and precision, will give you complete relaxation of your body and mind. Whatever fatigue or stress you experience during the day, I will be your therapist, happy to serve you and take care of you for an hour of relief and happiness.<br><br>
     You can choose the date, time and place that suits you.
 path:
   home:
