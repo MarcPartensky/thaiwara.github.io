@@ -4,28 +4,27 @@ path:
   service: /en/services.html
   degree: /en/degree.html
 services:
-  - name: Thaiwara Massage
+  thaiwara:
+    name: Thaiwara Massage
     text: |
       Signature massage combining the techniques of Thai massage and aromatherapy massage, with the art of Thai Warrior massage (Thai Warrior). It has been a combination of experience, work and learning since 2008. You will receive a massage perfectly combining hand pressure and softness.
-    id: thaiwara
-
-  - name: Aromatherapy
+  aromatherapy:
+    name: Aromatherapy
     text: |
       Light and soothing massage using scented oils. It provides relaxation and nourishes the skin by penetrating oils with the weight of the hand. The scent of essential oils improves good mood and comfort for a feeling of relaxation and well-being.
-    id: aromatherapy
-  - name: Traditional Thai Massage
+  thai:
+    name: Traditional Thai Massage
     text: |
       Massage using pressure, flexion and stretching, while applying hand weight suitable for your needs. Each pose will help relieve soreness and pain all over the body.
-    id: thai
-  - name: Thai Warrior Massage
+  warrior:
+    name: Thai Warrior Massage
     text: |
       Modern and unique massage from Thailand. It is a combination of traditional massage and Ruesi Datton (Exercise of the Thai Hermit). Also known as Massage Yoga, it was restored by Master Jack (M. Pathompon Aiyarattanarak). It is a combination of rhythmic massage using gentle pressure, flexion and stretching to help relieve your pain, fatigue and tension.
-    id: warrior
-  - name: Facial Reflexology
+  face:
+    name: Facial Reflexology
     text: |
       Relaxing massage on the face. It helps reduce the visible tension symptoms of the face, which regains radiance and brightness for a radiant smile in any situation.
-    id: face
-  - name: Foot Reflexology
+  foot:
+    name: Foot Reflexology
     text: |
       Concentrated massage on the legs and feet, to give them energy, reduce stress and create a well-being effect. It provides deep relaxation, helping you to be ready to move towards happiness.
-    id: foot

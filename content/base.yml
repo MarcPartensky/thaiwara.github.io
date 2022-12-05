@@ -1,7 +1,7 @@
 title: Thaiwara
 phone: "+33782392896"
 address: 4 rue Poulbot</br>75018 Paris
-maps: https://www.google.com/maps/embed/v1/place"?"q=place_id:ChIJKwBOMltu5kcRAnSBXDOQVug&key=AIzaSyCW4hX9ba6y9sis28QPo-wFjrQY-Jf6F-U
+maps: https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKwBOMltu5kcRAnSBXDOQVug&key=AIzaSyCW4hX9ba6y9sis28QPo-wFjrQY-Jf6F-U
 mail: thaiwara2224@gmail.com
 icon: /assets/img/photos/icon-nobg.png
 twitter: twitter
@@ -11,39 +11,39 @@ google_plus: google-plus
 keywords: massage, thai, wara, thaiwara
 linkedin: linkedin
 services:
-  - image: /assets/img/photos/hd_thai_wara_massage.jpg
-    id: thaiwara
+  thaiwara:
+    image: /assets/img/photos/hd_thai_wara_massage.jpg
     prices:
       - price: 180
         hour: "1h"
       - price: 250
         hour: "1h30"
-  - image: /assets/img/photos/hd_aromatherapy_massage.jpg
-    id: aromatherapy
+  aromatherapy:
+    image: /assets/img/photos/hd_aromatherapy_massage.jpg
     prices:
       - price: 180
         hour: "1h"
       - price: 250
         hour: "1h30"
-  - image: /assets/img/photos/hd_thai_massage.jpg
-    id: thai
+  thai:
+    image: /assets/img/photos/hd_thai_massage.jpg
     prices:
       - price: 180
         hour: "1h"
       - price: 250
         hour: "1h30"
-  - image: /assets/img/photos/hd_thai_warrior_massage.jpg
-    id: warrior
+  warrior:
+    image: /assets/img/photos/hd_thai_warrior_massage.jpg
     prices:
       - price: 180
         hour: "1h"
-  - image: /assets/img/photos/hd_face_massage.jpg
-    id: face
+  face:
+    image: /assets/img/photos/hd_face_massage.jpg
     prices:
       - price: 150
         hour: "1h"
-  - image: /assets/img/photos/hd_foot_massage.jpg
-    id: foot
+  foot:
+    image: /assets/img/photos/hd_foot_massage.jpg
     prices:
       - price: 170
         hour: "1h"
