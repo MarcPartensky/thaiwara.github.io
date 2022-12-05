@@ -10,7 +10,7 @@ testendpoint(){
     curl -fso /dev/null -w "%{http_code}" $proto://$host:$port$slug || fail=1
 }
 
-for slug in / /index /diplome.html /services.html /fr /fr/diplome.html /fr/services.html /en /en/degree.html /en/services.html
+for slug in / /index.html /diplome.html /services.html /fr/ /fr/diplome.html /fr/services.html /en/ /en/degree.html /en/services.html
 do
     testendpoint
     echo "$status $proto://$host:$port$slug"
