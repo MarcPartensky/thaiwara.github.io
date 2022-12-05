@@ -1,8 +1,8 @@
 name: Docker
 
 on:
-  schedule:
-  - cron: "0 0 1 * *" # every month
+  # schedule:
+  # - cron: "0 0 1 * *" # every month
   push:
     branches:
       - master
@@ -48,5 +48,5 @@ jobs:
         tags: |
           marcpartensky/thaiwara:latest
           ${{ steps.meta.outputs.tags }}
-        # cache-from: type=gha
-        # cache-to: type=gha,mode=max
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
