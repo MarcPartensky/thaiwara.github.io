@@ -21,10 +21,10 @@
 						</div>
 
 						<div class="col-lg-4 col-md-3 footer-links">
-							<h4>Nos services<h4>
+                            <h4>{{ services_text }}<h4>
 							<ul>
-								{% for service in services %}
-								<li><i class="bx bx-chevron-right"></i> <a href="{{ path.service }}#{{ service.id }}">{{ service.name }}</a></li>
+								{% for id, service in services.items() %}
+								<li><i class="bx bx-chevron-right"></i> <a href="{{ path.service.slug }}#{{ id }}">{{ service.name }}</a></li>
 								{% endfor %}
 							</ul>
 						</div>
