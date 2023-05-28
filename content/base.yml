@@ -17,39 +17,39 @@ services:
   thaiwara:
     image: /assets/img/photos/hd_thai_wara_massage.jpg
     prices:
-      - price: 180
-        hour: "1h"
-      - price: 250
-        hour: "1h30"
+      # - price: 180
+      #   hour: "1h"
+      # - price: 250
+      #   hour: "1h30"
   aromatherapy:
     image: /assets/img/photos/hd_aromatherapy_massage.jpg
     prices:
-      - price: 180
-        hour: "1h"
-      - price: 250
-        hour: "1h30"
+      # - price: 180
+      #   hour: "1h"
+      # - price: 250
+      #   hour: "1h30"
   thai:
     image: /assets/img/photos/hd_thai_massage.jpg
     prices:
-      - price: 180
-        hour: "1h"
-      - price: 250
-        hour: "1h30"
+      # - price: 180
+      #   hour: "1h"
+      # - price: 250
+      #   hour: "1h30"
   warrior:
     image: /assets/img/photos/hd_thai_warrior_massage.jpg
     prices:
-      - price: 180
-        hour: "1h"
+      # - price: 180
+      #   hour: "1h"
   face:
     image: /assets/img/photos/hd_face_massage.jpg
     prices:
-      - price: 150
-        hour: "1h"
+      # - price: 150
+      #   hour: "1h"
   foot:
     image: /assets/img/photos/hd_foot_massage.jpg
     prices:
-      - price: 170
-        hour: "1h"
+      # - price: 170
+      #   hour: "1h"
 degrees_type:
   - id: health
     name: Health and Beauty Development School
