@@ -18,13 +18,6 @@
 						<div class="col-xl-6 col-lg-7" data-aos="fade-left">
 							<br><br>
 							<p style="font-size: 1.1rem; text-align: justify">{{ service.text }}<p>
-							{% for price in service.prices %}
-							<p>
-                            <button type="button" class="btn btn-secondary" disabled>
-                                {{ price.price }} € / {{ price.hour }}
-                            </button>
-							</p>
-							{% endfor %}
 						</div>
 						{% if i!=5 %}
 							<hr style="margin: 2rem">
