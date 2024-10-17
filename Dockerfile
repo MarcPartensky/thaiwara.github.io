@@ -1,4 +1,4 @@
-FROM python as builder
+FROM python AS builder
 
 RUN apt install -y make
 RUN pip install pipenv
