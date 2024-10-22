@@ -14,6 +14,7 @@ RUN pipenv run make all
 
 FROM sebp/lighttpd
 
+USER root
 RUN apk add curl
 
 COPY --from=builder index.html services.html diplome.html /var/www/localhost/htdocs/
