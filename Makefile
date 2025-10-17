@@ -1,6 +1,11 @@
 # TMP:=$(XDG_RUNTIME_DIR)
 
 all: french english main
+netlify:
+	install
+	all
+install:
+	python -m pip install jinja2
 main: merge
 	jinja2 templates/index.html ./thaiwara_fr.yml -o index.html
 	jinja2 templates/services.html ./thaiwara_fr.yml -o services.html
